@@ -31,8 +31,8 @@ function writeToSpreadSheet($data){
     $sheet1 = new Worksheet($spreadsheet, 'KRAKEN');
     $sheet2 = new Worksheet($spreadsheet, 'BITFINEX');
     $sheet3 = new Worksheet($spreadsheet, 'COINMARKETCAP');
-    $sheet4 = new Worksheet($spreadsheet, 'CRYPTOCOMPARE');
-    $sheet5 = new Worksheet($spreadsheet, 'HUBOI');
+    $sheet4 = new Worksheet($spreadsheet, 'HUBOI');
+    $sheet5 = new Worksheet($spreadsheet, 'CRYPTOCOMPARE');
 
 // Data writing
 
