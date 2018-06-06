@@ -1,6 +1,5 @@
 <?php
 
-include("excelwriter.inc.php");
 require 'vendor/autoload.php';
 
 use PhpOffice\PhpSpreadsheet\Spreadsheet;
